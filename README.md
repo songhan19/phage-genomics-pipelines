@@ -23,6 +23,7 @@ This repository contains step-by-step protocols for sequencing, assembling, and 
 
 ```bash
 spades.py -1 sample_R1.fastq -2 sample_R2.fastq -o spades_output
+```
 
 ## 3. Gene Prediction
 
