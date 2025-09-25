@@ -23,3 +23,28 @@ This repository contains step-by-step protocols for sequencing, assembling, and 
 
 ```bash
 spades.py -1 sample_R1.fastq -2 sample_R2.fastq -o spades_output
+
+---
+
+## 3. Gene Prediction
+
+Tool: RASTtk web server
+URL: https://rast.nmpdr.org/
+
+Accessed: 1 December 2022
+
+Open reading frames (ORFs) were determined using RASTtk.
+
+---
+
+## 4. Functional Annotation
+
+Tools:
+
+BLASTP (Protein Basic Local Alignment Search Tool)
+
+HHPred Web Server (https://toolkit.tuebingen.mpg.de
+)
+Accessed: 23 December 2022
+
+The functions of ORFs were annotated by comparison with known protein databases.
