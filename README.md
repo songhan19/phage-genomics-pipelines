@@ -47,3 +47,58 @@ HHPred Web Server (https://toolkit.tuebingen.mpg.de
 Accessed: 23 December 2022
 
 The functions of ORFs were annotated by comparison with known protein databases.
+
+---
+
+## 5. tRNA Detection
+
+**Tool:** ARAGORN v1.2.41  
+**Accessed:** 10 May 2023  
+
+- tRNAs were predicted for the phage genome.
+
+---
+
+## 6. Virulence and Antibiotic Resistance Gene Detection
+
+**Tool:** Abricate v1.0.1 ([GitHub](https://github.com/tseemann/abricate))  
+**Accessed:** 16 May 2023  
+**Databases Used:** NCBI, CARD, Ecoli_VF, Resfinder, VFDB, MEGARES, ARG-ANNOT  
+
+```bash
+abricate --db CARD sample_genome.fasta
+```
+
+## 7. Genome Visualization
+
+**Tool:** Proksee ([https://proksee.ca/](https://proksee.ca/))  
+**Accessed:** 1 May 2024  
+
+- Generated a circular genome map of the phage.
+
+---
+
+## 8. Comparative Genomics and Phylogeny
+
+**Tool:** Viptree ([https://www.genome.jp/viptree/](https://www.genome.jp/viptree/))  
+**Accessed:** 1 February 2024  
+
+- Phage genome alignments and phylogenetic trees were generated to compare with related phages.
+
+---
+
+## 9. Genome Submission
+
+**Database:** GenBank  
+**Accession Number:** [OQ349392.1](https://www.ncbi.nlm.nih.gov/nuccore/OQ349392.1)  
+
+- The assembled phage genome was submitted to GenBank for public access.
+
+---
+
+## Notes
+
+- Ensure raw FASTQ files are quality-checked and trimmed before assembly.  
+- Parameters for each tool may need optimization depending on phage genome size and complexity.  
+- All web-based tools should be accessed using the latest stable version available.
+
